@@ -1,8 +1,9 @@
-# gmail_checker
+# intelora-gmail_checker
+A Neuron that can acces a user's gmail account and gives the number of unread mails and their titles
 
 ## Synopsis
 
-This neuron access to Gmail and gives the number of unread mails and their titles.
+Make Intelora access your Gmail and give you the number of unread mails and their titles.
 
 ## Installation
 ```
@@ -22,6 +23,11 @@ intelora install --git-url https://github.com/intelora/neuron_gmail.git
 |----------|----------------------------------------------|------|--------------------------------------------------------------|
 | unread   | Number of unread messages                    | int  | 5                                                            |
 | subjects | A List with all the unread messages subjects | list | ['Intelora commit', 'Beer tonight?', 'cats have superpower'] |
+
+## Limitation
+
+-Number of unread messages
+-A List with all the unread messages subjects
 
 ## Synapses example
 
